@@ -1,5 +1,4 @@
 - type: web
-    name: sinatra
     runtime: node
     repo: https://github.com/camilleBARD/cloudEx4
     scaling:
