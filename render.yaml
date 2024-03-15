@@ -1,0 +1,12 @@
+- type: web
+    name: sinatra
+    runtime: node
+    repo: https://github.com/camilleBARD/cloudEx4
+    scaling:
+      minInstances: 1
+      maxInstances: 3
+    buildCommand:  yarn
+    startCommand: yarn start
+    domains:
+      - test0.render.com
+      - test1.render.com
