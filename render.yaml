@@ -5,6 +5,3 @@ services:
     repo: https://github.com/camilleBARD/cloudEx4
     buildCommand:  yarn
     startCommand: yarn start
-    domains:
-      - test0.render.com
-      - test1.render.com
